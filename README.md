@@ -22,7 +22,7 @@ GitMonitor is a tool that continuously monitors a Git repository for changes and
 
 ```bash
 pip install gitpython
-
+```bash
 
 ## GitMonitor Working Process
 
