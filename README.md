@@ -24,9 +24,6 @@ GitMonitor is a tool that continuously monitors a Git repository for changes and
 pip install gitpython
 
 
-# TODO
-
-
 ## GitMonitor Working Process
 
 Here's a simplified overview of how `GitMonitor` works:
@@ -42,5 +39,3 @@ Here's a simplified overview of how `GitMonitor` works:
 3. **Task Execution**: When `task_controller` starts a new task, it calls `task_runner`. `task_runner` runs the test script with the file as an argument in a separate process and adds it to a dictionary of running tasks (`running_tasks`).
 
 4. **Cleanup**: When the program is about to exit, `cleanup` method is invoked which terminates any running tasks.
-
-# TODO
