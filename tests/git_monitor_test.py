@@ -11,7 +11,7 @@ class TestGitMonitor(unittest.TestCase):
     @patch('os.path.isdir')
     @patch('os.path.isfile')
     @patch('os.environ')
-    @patch('agit_guard.Repo', autospec=True) 
+    @patch('git_monitor.Repo', autospec=True) 
     def test_init(self, mock_repo_init, mock_env, mock_isfile, mock_isdir):
         # Set up mocks
         mock_repo_init.return_value = None

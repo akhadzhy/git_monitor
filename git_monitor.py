@@ -129,7 +129,7 @@ if __name__ == "__main__":
     )
 
     git_monitor = GitMonitor(
-        repo_dir='./tests/mock_repo/',
+        repo_dir='./tests/mock_repo',
         test_script='./tests/mock_repo/mock_file.py',
         branch='main',
         ssh_key_path='path/to/your/private/key',
